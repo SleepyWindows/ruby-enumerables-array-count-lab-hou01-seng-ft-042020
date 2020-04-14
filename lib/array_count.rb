@@ -9,5 +9,6 @@ def count_empty_strings(array)
   if array[i].class = String
     array.count do |element|
     element = ""
+    end
   end
 end
