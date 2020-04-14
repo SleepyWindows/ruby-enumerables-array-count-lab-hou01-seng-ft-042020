@@ -6,7 +6,7 @@ end
 
 def count_empty_strings(array)
   i = 0
-  if array[i].class = String
+  if array[i].is_a? (String)
     array.count do |element|
     element = ""
     end
